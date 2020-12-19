@@ -20,4 +20,4 @@
       (True,4,"bob") : ( Bool, number, String )
     ```    
     * I en liste MÅ de være like i alle liste-verdiene
-        * `[(«a», 1), («b», 2)]`
+        * `[("a", 1), ("b", 2)]`
