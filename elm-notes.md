@@ -16,7 +16,7 @@
     * Man MÅ ha med else, og også «then»
 + Tuple
     ```
-    * > (True, 4, "bob")
+      > (True, 4, "bob")
       (True,4,"bob") : ( Bool, number, String )
     ```    
     * I en liste MÅ de være like i alle liste-verdiene
