@@ -86,5 +86,19 @@
     { id = 3, location = "SWE", username = "kultNavn" }
         : User
     ```
++ Pattern matching
+    ```
+    > userCh {uID} = if uID > 10 then "Greater than 10" else "less or equal to 10"
+    <function> : { a | uID : number } -> String
+
+    > myUser2 = {uID = 2, uName="what"}
+    { uID = 2, uName = "what" }
+        : { uID : number, uName : String }
+
+    > userCh myUser2
+    "less or equal to 10" : String
+    ```
++ Field kan aldri være null eller undefined i elm
++ Kan heller ikke bruke `this` keyword
 
 
